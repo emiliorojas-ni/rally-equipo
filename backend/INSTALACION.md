@@ -29,3 +29,6 @@ Para revocar el enlace, cambiar `TEAM_KEY` en las propiedades del script y gener
 ## Proyecto preparado en esta sesión
 El editor con el código ya guardado está en https://script.google.com/home/projects/1kx1SiZ571ci5n6emNi5GFViGokHNOFdh0uVOVep13M50OtTO5OptGFVZ/edit . Google pidió autorización al ejecutar setup. El navegador integrado no abrió la ventana de consentimiento. La autorización y el despliegue todavía están pendientes; no hay endpoint activo configurado en la web.
 
+
+## Activación verificada
+El propietario autorizó setup y la aplicación web el 16 de octubre de 2026. La versión 1 está desplegada en https://script.google.com/macros/s/AKfycbwsqsx8gMwgofJ6nuArIbIvyeM9H2uVPMP4rOplvYN5F-rF5pUlGV4r6j1563J4HGSBag/exec . Se verificaron guardado de notas y lectura desde dos sesiones independientes de la web publicada. La hoja está creada y las 28 tareas iniciales están guardadas en el estado compartido. La clave no está en el repositorio. Compartir el enlace privado desde la pestaña Sincronización; la URL pública base no contiene el acceso.
