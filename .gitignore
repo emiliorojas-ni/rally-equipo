@@ -11,3 +11,7 @@ seed.cjs
 
 notes-check.cjs
 deploy-check.cjs
+
+plan-seed/
+seed-plan.cjs
+contribution-check.cjs

@@ -33,3 +33,7 @@ Los enlaces de la interfaz apuntan al repositorio propuesto y solo funcionarán 
 ## Notitas y recursos
 Las ideas nuevas se crean sin GitHub como notas personales del navegador. En el sitio publicado usan almacenamiento local separado y no se sincronizan entre integrantes. Exportar respaldo desde Inicio. Los documentos tienen categoría Documento o Contenido multimedia; los registros antiguos se clasifican por URL cuando no tienen categoría.
 
+
+## Team of Legends
+TOL incluye 20 tareas colectivas y por módulos con asignaciones sugeridas del Gantt, horarios relativos en su descripción y fechas límite. Los participantes son editables. Cada tarea admite un aporte por persona, texto, enlace de evidencia y check de su parte; esto no cierra automáticamente la tarea. Los aportes compartidos requieren acceso de escritura GitHub. La selección de nombre no verifica identidad. Evitar editar simultáneamente el mismo registro; el control de versión no es atómico. Mantener descansos escalonados.
+
