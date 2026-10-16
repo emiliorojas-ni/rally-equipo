@@ -57,7 +57,7 @@ function tick(){const c=R.clock(Date.now());$('#clock-label').textContent=c.labe
 const next=R.nextMilestone(records);
 if(next){const remaining=Math.floor((Date.parse(next.deadline+'-06:00')-Date.now())/1000);$('#next-title').textContent=next.title;$('#next-countdown').textContent=R.formatSeconds(Math.max(0,remaining));$('#next-countdown').classList.toggle('overdue',remaining<0);$('#next-deadline').textContent=(remaining<0?'Plazo vencido · pendiente de confirmar · ':'Vence ')+date(next.deadline);
 }else{$('#next-title').textContent=busy?'Cargando hitos del equipo…':records.some(d=>d.kind==='task')?'Todos los hitos cumplidos':'Plan del equipo pendiente de cargar';$('#next-countdown').textContent=busy?'--:--:--':records.some(d=>d.kind==='task')?'✓':'—';$('#next-deadline').textContent=busy?'Conectando con el estado compartido':records.some(d=>d.kind==='task')?'El equipo completó los hitos del plan.':'Carga el plan inicial desde Sincronización.';}}
-tick();setInterval(tick,1000);load();
+window.TOLBooted=true;tick();setInterval(tick,1000);load();
 
 function addContributions(d){
  const people=d.participants?.length?d.participants:['Emily','Arianna','Axel','Emilio','Genaro','Yessenia','Kevin'];
