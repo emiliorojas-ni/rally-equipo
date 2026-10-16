@@ -25,3 +25,7 @@ Consulta cada diez segundos mientras la web esté visible y no haya un formulari
 No es un sistema para información sensible. Apps Script tiene cuotas y puede responder con retraso. Un fallo deja visibles los datos de caché y el aviso, pero no confirma guardados. Adjuntar archivos a través de sus enlaces de Drive; el servicio solo guarda metadatos y texto. Se necesitan permisos de Drive para ver las vistas previas.
 
 Para revocar el enlace, cambiar `TEAM_KEY` en las propiedades del script y generar un nuevo acceso para el equipo. La clave nunca se incluye en el repositorio. La función `setup` conserva la clave y hoja existentes si se vuelve a ejecutar.
+
+## Proyecto preparado en esta sesión
+El editor con el código ya guardado está en https://script.google.com/home/projects/1kx1SiZ571ci5n6emNi5GFViGokHNOFdh0uVOVep13M50OtTO5OptGFVZ/edit . Google pidió autorización al ejecutar setup. El navegador integrado no abrió la ventana de consentimiento. La autorización y el despliegue todavía están pendientes; no hay endpoint activo configurado en la web.
+
