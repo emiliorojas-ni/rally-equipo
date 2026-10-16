@@ -29,3 +29,7 @@ No hay migración automática de datos locales a Issues. Al desplegar, se debe d
 5. Actualizar repositorio configurado si cambia el destino.
 
 Los enlaces de la interfaz apuntan al repositorio propuesto y solo funcionarán cuando sea creado. Drive y documentos se vinculan mediante URLs; no hay sincronización de contenido ni OAuth de Drive.
+
+## Notitas y recursos
+Las ideas nuevas se crean sin GitHub como notas personales del navegador. En el sitio publicado usan almacenamiento local separado y no se sincronizan entre integrantes. Exportar respaldo desde Inicio. Los documentos tienen categoría Documento o Contenido multimedia; los registros antiguos se clasifican por URL cuando no tienen categoría.
+

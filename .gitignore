@@ -8,3 +8,6 @@ timer-test.cjs
 
 seed/
 seed.cjs
+
+notes-check.cjs
+deploy-check.cjs
