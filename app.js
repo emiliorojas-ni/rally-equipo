@@ -1,6 +1,6 @@
 const $=s=>document.querySelector(s), R=Rally;
 const REPO='emiliorojas-ni/rally-equipo', API='https://api.github.com';
-let records=[],token='',user='',mode='local',busy=false,filter={q:'',owner:'',area:''};
+let records=[],token='',user='',mode=['localhost','127.0.0.1'].includes(location.hostname)?'local':'github',busy=false,filter={q:'',owner:'',area:''};
 const KEY='rally-equipo-local-v1';
 const names={inicio:'Inicio',tablero:'Tablero de tareas',ideas:'Ideas humanas',decisiones:'Decisiones',documentos:'Documentos y enlaces',entregas:'Entregas'};
 const kinds={tablero:'task',ideas:'idea',decisiones:'decision',documentos:'document',entregas:'delivery'};

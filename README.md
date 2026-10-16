@@ -1,6 +1,6 @@
 # Rally Equipo web
 
-Web estática para coordinar el Rally Latinoamericano 2026. Desarrollo local; todavía no publicada.
+Web estática para coordinar el Rally Latinoamericano 2026. Publicada en https://emiliorojas-ni.github.io/rally-equipo/ .
 
 ## Ejecutar
 
@@ -12,9 +12,9 @@ Contador al inicio del 16 de octubre de 2026 a las 08:00 (UTC−06:00) y cierre 
 
 ## Datos y colaboración
 
-Por defecto funciona en modo local. Los datos persisten en localStorage de ese navegador y origen. No se sincronizan entre personas. Las pestañas del mismo navegador reciben cambios. Exportar respaldos antes de cambiar dispositivo u origen. El servidor escucha solo en localhost.
+En localhost funciona en modo local. En la publicación usa GitHub compartido por defecto. Los datos persisten en localStorage de ese navegador y origen. No se sincronizan entre personas. Las pestañas del mismo navegador reciben cambios. Exportar respaldos antes de cambiar dispositivo u origen. El servidor escucha solo en localhost.
 
-Está implementado un adaptador opcional a GitHub Issues, con repositorio propuesto `emiliorojas-ni/rally-equipo` en app.js. Ese repositorio NO se ha creado. La lectura usa la API pública; crear o editar requiere un colaborador con token específico con acceso al repositorio y permiso Issues de escritura. El token se guarda solo en memoria y se borra al recargar. No se incluye ninguna credencial en el proyecto. No confundir el acceso al repositorio con el acceso a los archivos de Drive.
+Está implementado un adaptador opcional a GitHub Issues, con repositorio propuesto `emiliorojas-ni/rally-equipo` en app.js. El repositorio está creado y contiene los registros iniciales compartidos. La lectura usa la API pública; crear o editar requiere un colaborador con token específico con acceso al repositorio y permiso Issues de escritura. El token se guarda solo en memoria y se borra al recargar. No se incluye ninguna credencial en el proyecto. No confundir el acceso al repositorio con el acceso a los archivos de Drive.
 
 La publicación de código en Pages no convierte el almacenamiento local en colaborativo. Para colaboración activar y probar el repositorio y asignar colaboradores. Los registros de Issues del repositorio público serán públicos. No poner documentos privados ni datos sensibles en esos registros. La API aplica límites de solicitudes; usar Actualizar cuando sea necesario. La revisión de updated_at detecta cambios previos, pero no ofrece bloqueo atómico frente a dos escrituras simultáneas. Evitar editar el mismo registro a la vez; el historial de Issues permite revisar versiones.
 

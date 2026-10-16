@@ -5,3 +5,6 @@ node_modules/
 playwright-artifacts/
 browser-test.cjs
 timer-test.cjs
+
+seed/
+seed.cjs
