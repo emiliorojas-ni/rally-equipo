@@ -1,0 +1,31 @@
+# Rally Equipo web
+
+Web estática para coordinar el Rally Latinoamericano 2026. Desarrollo local; todavía no publicada.
+
+## Ejecutar
+
+Con Node.js instalado: `npm start`, luego abrir http://127.0.0.1:4173 . Sin dependencias de instalación. Pruebas: `npm test`.
+
+## Funciones
+
+Contador al inicio del 16 de octubre de 2026 a las 08:00 (UTC−06:00) y cierre después de 28 horas, el 17 de octubre a las 12:00. Tablero con edición y arrastre, filtros, responsables, revisor, deadlines en hora de Nicaragua, bloqueos y evidencia. Registro de ideas con procedencia, decisiones, enlaces y entregas. Respaldo JSON, importación aditiva y resumen para IA.
+
+## Datos y colaboración
+
+Por defecto funciona en modo local. Los datos persisten en localStorage de ese navegador y origen. No se sincronizan entre personas. Las pestañas del mismo navegador reciben cambios. Exportar respaldos antes de cambiar dispositivo u origen. El servidor escucha solo en localhost.
+
+Está implementado un adaptador opcional a GitHub Issues, con repositorio propuesto `emiliorojas-ni/rally-equipo` en app.js. Ese repositorio NO se ha creado. La lectura usa la API pública; crear o editar requiere un colaborador con token específico con acceso al repositorio y permiso Issues de escritura. El token se guarda solo en memoria y se borra al recargar. No se incluye ninguna credencial en el proyecto. No confundir el acceso al repositorio con el acceso a los archivos de Drive.
+
+La publicación de código en Pages no convierte el almacenamiento local en colaborativo. Para colaboración activar y probar el repositorio y asignar colaboradores. Los registros de Issues del repositorio público serán públicos. No poner documentos privados ni datos sensibles en esos registros. La API aplica límites de solicitudes; usar Actualizar cuando sea necesario. La revisión de updated_at detecta cambios previos, pero no ofrece bloqueo atómico frente a dos escrituras simultáneas. Evitar editar el mismo registro a la vez; el historial de Issues permite revisar versiones.
+
+No hay migración automática de datos locales a Issues. Al desplegar, se debe decidir y ejecutar la migración de registros aprobados; exportar primero el respaldo. Los nombres del Gantt son sugeridos y editables.
+
+## Despliegue pendiente de instrucción del propietario
+
+1. Confirmar cuenta y nombre de repositorio.
+2. Crear repositorio solo con el contenido de esta carpeta; no subir documentos de la carpeta superior.
+3. Subir a main y habilitar Pages desde la raíz de main. `.nojekyll` evita procesamiento Jekyll.
+4. Verificar URL, contador, acceso móvil y flujo colaborativo con dos usuarios autorizados.
+5. Actualizar repositorio configurado si cambia el destino.
+
+Los enlaces de la interfaz apuntan al repositorio propuesto y solo funcionarán cuando sea creado. Drive y documentos se vinculan mediante URLs; no hay sincronización de contenido ni OAuth de Drive.
