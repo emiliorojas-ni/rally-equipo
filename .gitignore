@@ -20,3 +20,5 @@ diagnose.cjs
 published-test.cjs
 
 drive-check.cjs
+
+shared-browser-check.cjs

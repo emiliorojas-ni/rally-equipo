@@ -45,3 +45,7 @@ El trabajo diario usa almacenamiento local sin GitHub, también en el sitio publ
 ## Vistas de Drive
 Las carpetas de documentos y multimedia del equipo están preconfiguradas. Se muestran con embeddedfolderview y se recargan cada 60 segundos mientras la sección está visible, o mediante el botón de recarga. Los enlaces individuales de Drive ofrecen preview en el detalle. No hay listado mediante API ni copia de archivos al repositorio; el contenido y sus permisos los sirve Google. La incrustación puede requerir sesión y estar limitada por cookies o políticas de Google. Las subidas se hacen en Drive y el procesamiento de miniaturas depende de Google. Pruebas de interfaz con respuestas simuladas y lectura de las carpetas reales verificadas: documentos vacía y multimedia con una imagen al momento de comprobar.
 
+
+## Sincronización compartida
+El cliente y el backend Google Apps Script están implementados. Ver backend/INSTALACION.md. La sincronización requiere desplegar y autorizar ese servicio: publicar en Pages no lo activa por sí solo. El acceso de equipo se conserva por sesión. El cliente consulta cada 10 segundos mientras no hay formularios en edición y ofrece migración explícita de registros locales. Las pruebas del contrato y de dos navegadores usan backend simulado y no sustituyen la prueba con Google desplegado.
+
