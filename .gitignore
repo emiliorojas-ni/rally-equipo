@@ -15,3 +15,6 @@ deploy-check.cjs
 plan-seed/
 seed-plan.cjs
 contribution-check.cjs
+
+diagnose.cjs
+published-test.cjs
