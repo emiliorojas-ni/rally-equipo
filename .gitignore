@@ -18,3 +18,5 @@ contribution-check.cjs
 
 diagnose.cjs
 published-test.cjs
+
+drive-check.cjs

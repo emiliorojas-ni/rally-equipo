@@ -41,3 +41,7 @@ TOL incluye 20 tareas colectivas y por módulos con asignaciones sugeridas del G
 ## Separación de integraciones
 El trabajo diario usa almacenamiento local sin GitHub, también en el sitio publicado. GitHub queda como pestaña de enlaces técnicos; los registros antiguos siguen en Issues. Drive permite vincular carpetas de documentos y multimedia; aún no hay OAuth, búsqueda, subida ni sincronización mediante Google API. Los permisos se administran en Drive. Los accesos de carpetas se guardan por navegador.
 
+
+## Vistas de Drive
+Las carpetas de documentos y multimedia del equipo están preconfiguradas. Se muestran con embeddedfolderview y se recargan cada 60 segundos mientras la sección está visible, o mediante el botón de recarga. Los enlaces individuales de Drive ofrecen preview en el detalle. No hay listado mediante API ni copia de archivos al repositorio; el contenido y sus permisos los sirve Google. La incrustación puede requerir sesión y estar limitada por cookies o políticas de Google. Las subidas se hacen en Drive y el procesamiento de miniaturas depende de Google. Pruebas de interfaz con respuestas simuladas y lectura de las carpetas reales verificadas: documentos vacía y multimedia con una imagen al momento de comprobar.
+

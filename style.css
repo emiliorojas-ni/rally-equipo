@@ -9,3 +9,5 @@
 .contributions{margin-top:25px;padding-top:20px;border-top:1px solid var(--line)}.contribution-row{padding:12px;border-radius:8px;background:#f0f5e9;margin-bottom:9px}.contribution-row .prose{margin:5px 0;font-size:12px}.participation{font-size:11px!important;color:#497335!important}.check-inline{display:flex;align-items:center;gap:8px}.check-inline input{width:auto;margin:0}
 
 .link-button{display:inline-block;padding:10px 15px;border:1px solid var(--line);border-radius:8px;text-decoration:none}
+
+.drive-galleries{display:grid;grid-template-columns:1fr;gap:20px;margin:24px 0}.drive-gallery iframe{width:100%;height:480px;border:1px solid var(--line);border-radius:8px;background:#fff}.file-preview iframe{width:100%;height:55vh;border:1px solid var(--line);border-radius:8px;margin-top:20px}.preview-button{font-size:11px;margin:0 0 12px;background:#e7efd9}.drive-gallery h3{margin:0}@media(max-width:720px){.drive-gallery iframe{height:380px}.drive-gallery .section-head{flex-wrap:wrap}}
