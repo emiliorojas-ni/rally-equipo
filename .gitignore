@@ -24,3 +24,5 @@ drive-check.cjs
 shared-browser-check.cjs
 
 tab-session-check.cjs
+
+optimistic-check.cjs
