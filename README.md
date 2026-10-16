@@ -37,3 +37,7 @@ Las ideas nuevas se crean sin GitHub como notas personales del navegador. En el 
 ## Team of Legends
 TOL incluye 20 tareas colectivas y por módulos con asignaciones sugeridas del Gantt, horarios relativos en su descripción y fechas límite. Los participantes son editables. Cada tarea admite un aporte por persona, texto, enlace de evidencia y check de su parte; esto no cierra automáticamente la tarea. Los aportes compartidos requieren acceso de escritura GitHub. La selección de nombre no verifica identidad. Evitar editar simultáneamente el mismo registro; el control de versión no es atómico. Mantener descansos escalonados.
 
+
+## Separación de integraciones
+El trabajo diario usa almacenamiento local sin GitHub, también en el sitio publicado. GitHub queda como pestaña de enlaces técnicos; los registros antiguos siguen en Issues. Drive permite vincular carpetas de documentos y multimedia; aún no hay OAuth, búsqueda, subida ni sincronización mediante Google API. Los permisos se administran en Drive. Los accesos de carpetas se guardan por navegador.
+
